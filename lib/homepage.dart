@@ -13,74 +13,75 @@ class Homepage extends StatefulWidget {
 
 class _HomepageState extends State<Homepage> {
   List<Bhajan> bhajans = [
+     Bhajan(
+      name: "Mahabharat full story",
+      imageUrl: 'assets/images/nagendra_haraya.jpg',
+      audioUrl: 'assets/audio/Mahabharat Song  Krishna  Arjuna  Rap Song  Bhakti Song  Geeta saar  StarPlus.mp3',
+    ),
     Bhajan(
       name: "Nagendra Haraya",
-      imageUrl: 'images/nagendra_haraya.jpg',
+      imageUrl: 'assets/images/nagendra_haraya.jpg',
       audioUrl: 'assets/audio/nagendra_haraya.mp3',
     ),
     Bhajan(
       name: "Sarvopari premi shiv shankar",
-      imageUrl: 'images/1.jpg',
+      imageUrl: 'assets/images/1.jpg',
       audioUrl: 'assets/audio/1.mp3',
     ),
-    Bhajan(
-      name: "OM Nama Shivaya",
-      imageUrl: 'images/2.jpg',
-      audioUrl: 'assets/audio/2.mp3',
-    ),
+ 
     Bhajan(
       name: "Shiva Tandav",
-      imageUrl: 'images/3.jpg',
+      imageUrl: 'assets/images/3.jpg',
       audioUrl: 'assets/audio/nagendra_haraya.mp3',
     ),
     Bhajan(
       name: "Lingastakam",
-      imageUrl: 'images/4.jpg',
+      imageUrl: 'assets/images/4.jpg',
       audioUrl: 'assets/audio/nagendra_haraya.mp3',
     ),
     Bhajan(
       name: "Shiv Shakti Se Hi Poorn Hai",
-      imageUrl: 'images/5.jpg',
+      imageUrl: 'assets/images/5.jpg',
       audioUrl: 'assets/audio/nagendra_haraya.mp3',
     ),
     Bhajan(
       name: "Bhola Bhandari",
-      imageUrl: 'images/6.jpg',
+      imageUrl: 'assets/images/6.jpg',
       audioUrl: 'assets/audio/nagendra_haraya.mp3',
     ),
     Bhajan(
       name: "Shivoham Shivoham",
-      imageUrl: 'images/7.jpg',
+      imageUrl: 'assets/images/7.jpg',
       audioUrl: 'assets/audio/nagendra_haraya.mp3',
     ),
     Bhajan(
       name: "Aadi Aananta",
-      imageUrl: 'images/8.jpg',
+      imageUrl: 'assets/images/8.jpg',
       audioUrl: 'assets/audio/nagendra_haraya.mp3',
     ),
     Bhajan(
       name: "Shivoham Shivoham",
-      imageUrl: 'images/9.jpg',
+      imageUrl: 'assets/images/9.jpg',
       audioUrl: 'assets/audio/nagendra_haraya.mp3',
     ),
     Bhajan(
       name: "Jatadhar Shiva sankhar",
-      imageUrl: 'images/10.jpg',
+      imageUrl: 'assets/images/10.jpg',
       audioUrl: 'assets/audio/nagendra_haraya.mp3',
     ),
     Bhajan(
       name: "Shivoham Shivoham",
-      imageUrl: 'images/11.jpg',
+      imageUrl: 'assets/images/11.jpg',
       audioUrl: 'assets/audio/nagendra_haraya.mp3',
     ),
     Bhajan(
       name: "Shivoham Shivoham",
-      imageUrl: 'images/12.jpg',
+      imageUrl: 'assets/images/12.jpg',
       audioUrl: 'assets/audio/nagendra_haraya.mp3',
     ),
     Bhajan(
       name: "Shivoham Shivoham",
-      imageUrl: 'images/13.jpg',
+      imageUrl: 'assets/images/13.jpg',
       audioUrl: 'assets/audio/nagendra_haraya.mp3',
     )
   ];
@@ -96,7 +97,7 @@ class _HomepageState extends State<Homepage> {
               child: Stack(
                 children: [
                   Image.asset(
-                    'images/1.jpg',
+                    'assets/images/1.jpg',
                     fit: BoxFit.cover,
                     height: double.infinity,
                     width: double.infinity,

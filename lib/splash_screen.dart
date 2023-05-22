@@ -14,9 +14,9 @@ class _MySplashScreenState extends State<MySplashScreen> {
   Widget build(BuildContext context) {
     return EasySplashScreen(
       logo: Image.asset(
-        'images/1.jpg',
+        'assets/images/1.jpg',
       ),
-      logoSize: 100,
+      logoWidth: 100,
       title: Text(
         "Shiva Stuti",
         style: TextStyle(

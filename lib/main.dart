@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nrn_shivastuti/splash_screen.dart';
-import 'package:google_fonts/google_fonts.dart';
+// import 'package:google_fonts/google_fonts.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         // primarySwatch: Colors.blue,
         brightness: Brightness.dark,
-        fontFamily: GoogleFonts.kalam().fontFamily,
+        // fontFamily: GoogleFonts.kalam().fontFamily,
       ),
       home: MySplashScreen(),
     );
